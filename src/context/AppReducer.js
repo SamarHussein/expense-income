@@ -1,4 +1,4 @@
-export default function(state, action) {
+export (state, action) =>{
     switch(action.type) {
       case 'DELETE_TRANSACTION':
         return {
